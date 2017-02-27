@@ -16,6 +16,27 @@ navigator.geolocation.watchPosition(function(position) {
     userLongitude = position.coords.longitude;
 });
 
+// Create variable to store timer
+var timer;
+
+navigator.geolocation.watchPosition(function(position) {
+	// Update latitude and longitude
+	userLatitude = position.coords.latitude;
+	userLongitude = position.coords.longitude;
+
+  // Create timer if needed
+  // Once initialized, it will fire every 60 seconds as recommended by the Uber API
+  // We only create the timer after we've gotten the user's location for the first time
+  if (typeof timer === typeof undefined) {
+    timer = setInterval(function() {
+        getEstimatesForUserLocation(userLatitude, userLongitude);
+    }, 60000);
+
+    // Query Uber API if needed
+    getEstimatesForUserLocation(userLatitude, userLongitude);
+  }
+});
+
 function getEstimatesForUserLocation(latitude,longitude) {
   $.ajax({
     url: "https://api.uber.com/v1/estimates/price",
