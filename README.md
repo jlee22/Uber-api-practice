@@ -27,3 +27,5 @@ Build a digital invitation for your next party and learn how to use the Uber API
 ```
 http://localhost:8000/app/01-static-invitation/
 ```
+
+Note: You won't be able to sign-in on m.uber.com on your desktop -- to fully test the deep-linking (and call an Uber in the process) you'll need to fire up your iOS Simulator or upload your project to the web and access it from a mobile device
