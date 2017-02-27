@@ -11,9 +11,15 @@ Build a digital invitation for your next party and learn how to use the Uber API
 #### Make sure you've downloaded the code. To do this:
 1. Download Repo
 2. Run a simple local server
-  * On a Mac, you can do this by running
+  * On a Mac, you can do this by running the following:
+
+  Python3:
   ```
   run python3 -m http.server
+  ```
+  Python 2:
+  ```
+  python -m SimpleHTTPServer
   ```
   * If you're on windows, try doing this by installing [Mongoose](https://code.google.com/archive/p/mongoose/)
 
