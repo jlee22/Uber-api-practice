@@ -15,7 +15,7 @@ Build a digital invitation for your next party and learn how to use the Uber API
 
   Python3:
   ```
-  run python3 -m http.server
+  python3 -m http.server
   ```
   Python 2:
   ```
