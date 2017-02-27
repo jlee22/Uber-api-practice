@@ -1,13 +1,12 @@
 // Uber API Constants
-// Security note: these are visible to whomever views the source code!
-var uberClientId = "YOUR_CLIENT_ID"
-	, uberServerToken = "YOUR_SERVER_TOKEN";
+var uberClientId = "ydW7vTGHvHjYhMI1X1KWj86oFqLIFZ71"
+  , uberServerToken = "czYM-kgEUbw2AyaL2J9y-ftR4RkfU17tXidXNzUl";
 
-// Create variables to store latitude and longitude
-var userLatitude
-	, userLongitude
-	, partyLatitude = 40.7283405
-	, partyLongitude = -73.994567;
+  // Create variables to store latitude and longitude
+var userLatitude,
+    userLongitude,
+    partyLatitude = 37.775214,
+    partyLongitude = -122.417509;
 
 // Create variable to store timer
 var timer;
