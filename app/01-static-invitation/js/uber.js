@@ -1,3 +1,7 @@
+// Uber API Constants
+var uberClientId = "ydW7vTGHvHjYhMI1X1KWj86oFqLIFZ71"
+  , uberServerToken = "czYM-kgEUbw2AyaL2J9y-ftR4RkfU17tXidXNzUl";
+
 // create placeholder variables
 var userLatitude
   , userLongitude;
