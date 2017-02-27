@@ -4,6 +4,8 @@ Build a digital invitation for your next party and learn how to use the Uber API
 
 [Based on this tutorial](http://thinkful.com/learn/uber-api)
 
+![app](/uber-app.png)
+
 ## App Usage
 
 #### Make sure you've downloaded the code. To do this:
@@ -14,7 +16,7 @@ Build a digital invitation for your next party and learn how to use the Uber API
   run python3 -m http.server
   ```
   * If you're on windows, try doing this by installing [Mongoose](https://code.google.com/archive/p/mongoose/)
-  
+
 3. In your browser, go to
 ```
 http://localhost:8000/app/01-static-invitation/
